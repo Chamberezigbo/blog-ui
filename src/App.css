@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap");
+
+.hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+		url("./assets/blog.jpg");
+	@apply bg-contain;
+	@apply bg-no-repeat;
+	@apply bg-cover;
+	@apply mx-auto;
+	@apply text-right;
+	@apply font-bold;
+	@apply h-full;
+	@apply py-52;
+}
